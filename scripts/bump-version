@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+
+# Usage: ./scripts/bump-version <version> <hash>. For example:
+# ./scripts/bump-version 0.0-4023 gc1271a00
 set -Eeuo pipefail
 
 _version="${1:-\2}"
